@@ -1,3 +1,7 @@
+//josefina balda
+//comision 2
+//legajo 125517/7
+
 let estadoActual = "PANTALLA_INICIO"; 
 let imgFondo;                 
 let framesCaminata = [];  
@@ -32,7 +36,7 @@ function setup() {
 function draw() {
   let tiempoRelativo = millis() - inicioEstado;
 
-  // --- 1. PANTALLA DE INICIO ---
+  
   if (estadoActual === "PANTALLA_INICIO") {
     image(imgFondo, width / 2, height / 2, width, height);
 
